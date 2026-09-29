@@ -1,0 +1,11 @@
+name: Vijay Kumar
+on:
+push:
+branches: [main]
+
+jobs:
+  demo:
+  runs on: ubuntu-lastest
+steps:
+name: ""greeting"
+run: echo "This is the mmsg"
